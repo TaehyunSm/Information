@@ -39,7 +39,7 @@ public class InformationActivity extends AppCompatActivity {
                 if (radioMale.isChecked() == true)
                     it.putExtra("sex", "남자");
                 else
-                    it.putExtra("Sex", "여자");
+                    it.putExtra("sex", "여자");
                 String strLicense = "";
                 if (cBInfo.isChecked())
                     strLicense += "\n 정보처리기사";
